@@ -1,0 +1,108 @@
+:root{
+    --vermelho: #DC1916;
+    --preta: #0F0E0E;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Elementos base */
+body {
+    background: var(--preta);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items:initial;
+    justify-content:space-evenly;
+}
+
+ header .logo {
+    justify-items: left;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end
+}
+
+header nav a {
+    text-decoration:none;
+    color:rgb(236, 232, 229);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+header nav a:hover{
+    color: rgb(195, 28, 28);
+}
+
+/* Anime Principal*/
+.anime-principal{
+    margin-top: 10mm;
+    font-size: 15px;
+    background:linear-gradient(rgba(0,0,0,.75),rgba(0, 0, 0, 0.75)70%), url(/img/Fairy-Tail-capa.jpg);
+    
+    height: 400px;
+    
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.anime-principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.titulo {
+    margin-top: 15%;
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, .60);
+    border: none;
+    color: yellow;
+    margin-bottom: 70px;
+  
+    padding: 15px;
+    margin-right: 15px;
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    cursor: pointer; 
+transition: 1s ease-out all
+
+}
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: 2px;
+}
+.container{
+    margin-left: 30px;
+}
+
+.anime-principal .container {
+    width: 80%;
+}
+
+.box-anime{
+    height: 400px;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+}
