@@ -10,7 +10,7 @@
     <li> CSS </li>
     <li> JavaScript </li>
     <li> Jquery </li>
-    <li> Carrosel de Corujas </li>
+    <li> Carrossel de Corujas </li>
   </ul>
   
   <h3> Layout do Projeto: <h3>
